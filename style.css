@@ -1,90 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #050404;
     color:#EEF1EF;
 }
 
-strong{
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Destaque_titulo{
     color:#E3655B;
 }
 
-.container{
-    width: 593px;
-    margin-left: 357px;
-    margin-top: 278px;
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-h1{
-    width: 593px;
-    height: 168px;
-    font-family:'Kroma One';
-    font-style: normal;
-    font-weight: 400;
+.apresentacao__conteudo__titulo{
     font-size: 36px;
-    line-height: 56px;
+    font-family: 'Krona One', sans-serif;
 }
 
-p {
-    width: 593px;
-    height: 144px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
+.apresentacao__conteudo__texto{
     font-size: 24px;
-    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-img{
-    position: absolute;
-    width: 467.71px;
-    height: 532px;
-    left: 1032px;
-    top: 253px;
+.apresentacao__conteudo__links{
+    display: flex;
+    justify-content: space-between;
 }
 
-a{
-    width: 174px;
-    height: 36px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
+.apresentacao__links__link{
+    background-color: #E3655B;
+    width: 280px;
     text-align: center;
-    color: #050404;  
-}
-
-
-
-.b1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 16px;
-    position: absolute;
-    width: 280px;
-    height: 79px;
-    left: 362px;
-    top: 681px;
     border-radius: 16px;
-    background: #E3655B;
-    border-color: #050404;
-}
-
-.b2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 16px;
-    position: absolute;
-    width: 280px;
-    height: 79px;
-    left: 692px;
-    top: 681px;
-    border-radius: 16px;
-    background: #E3655B;
-    border-color: #050404;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #050404;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
