@@ -116,31 +116,21 @@ body{
 .img_insta{
     width: 32px;
     height: 32px;
-    background-color: var(--cor-primaria);
+    background-color: transparent;
 }
 
-.img_insta:hover{
-    background-color: #272727;
-}
 
 .img_github{
     width: 32px;
     height: 32px;
-    background-color: var(--cor-primaria);
+    background-color: transparent;
 }
 
-.img_github:hover{
-    background-color: #272727;
-}
 
 .img_linkedin{
     width: 32px;
     height: 32px;
-    background-color: var(--cor-primaria);
-}
-
-.img_linkedin:hover{
-    background-color: #272727;
+    background-color: transparent;
 }
 
 .rodape{
